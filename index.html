@@ -1,8 +1,11 @@
 <script>
     function usrpas() {
-        if (document.form1.txt.value == "Usuario" && document.form1.num.value == "1234" || document.form1.txt.value == "Usuario2" && document.form1.num.value == "12345") { window.location = "index2.html" }
-
-        else { alert("Error en Usuario o Contraseña. Intenta de nuevo.") }
+        if (document.form1.txt.value == "Usuario" && document.form1.num.value == "1234" || document.form1.txt.value == "Usuario2" && document.form1.num.value == "12345") {
+            window.location = "index2.html"
+        }
+        else {
+            alert("Error en Usuario o Contraseña. Intenta de nuevo.")
+        }
     }
     document.oncontextmenu = new Function("return false");
 </script>

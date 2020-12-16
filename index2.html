@@ -5,20 +5,28 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
 
     <script>
-        function Gas(){
-        if (document.form1.txt.value=="Gastos dia de semana"){
-    
-            window.location="indexdiadesemana.html";
-        } 
-        else {
-    
-            window.location="indexfindesemana.html";
+        function Gas() {
+            if (document.form1.txt.value == "Gastos dia de semana") {
+
+                window.location = "indexdiadesemana.html";
+            }
+            else {
+
+                window.location = "indexfindesemana.html";
+            }
+
         }
-        
-    }
+
+        function moverDiaSemana() {
+            window.location = "indexdiadesemana.html";
+        }
+
+        function moverFinDiaSemana() {
+            window.location = "indexfindesemana.html";
+        }
 
     </script>
 
@@ -27,19 +35,18 @@
 
 
 </head>
+
 <body>
 
-    
-   
+
+
     <div class="btn-group">
-        <button type="button" class="btn btn-default">Gastos dia de semana</button>
-        <button type="button" class="btn btn-default">Gastos fin de semana </button>
+
+        <button onclick="moverFinDiaSemana()">Gastos fin de semana </button>
+        <button onclick="moverDiaSemana()">Gastos dia de semana</button>
+
     </div>
-    
+
 </body>
+
 </html>
-
-
-
-
-
