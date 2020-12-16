@@ -5,3 +5,6 @@ function saludar(nombre) {
 function adios() {
     console.log("Adios");
 } 
+
+saludar("Mara");
+saludar("alex");
