@@ -4,6 +4,7 @@ function saludar(nombre) {
 
 function adios() {
     console.log("Adios");
+    console.log("ademas de puto");
 } 
 
 saludar("Mara");
